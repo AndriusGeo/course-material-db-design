@@ -1,0 +1,25 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "title":"Vilnius university",
+            "address":"M. K. Ciurlionio str. 21"
+         },
+         "geometry":{
+            "type":"MultiPoint",
+            "coordinates":[
+               [
+                  25.260668992996212,
+                  54.68251216961803
+               ],
+               [
+                  25.25855541229248,
+                  54.68303627004871
+               ]
+            ]
+         }
+      }
+   ]
+}
