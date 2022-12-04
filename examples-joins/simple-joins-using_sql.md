@@ -61,7 +61,7 @@ Sankirtos metu palyginamos abi lentelės (esybės) pagal konkretų nurodytą stu
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	pastatai.id as "pastatas",
+    pastatai.id as "pastatas",
     sklypai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
@@ -78,7 +78,7 @@ Kairysis sujungimas atrenka visus įrašus kairėje esančioje lentelėje (pirmo
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	pastatai.id as "pastatas",
+    pastatai.id as "pastatas",
     sklypai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
@@ -93,7 +93,7 @@ Jeigu norima iš kairėje esančios lentelės atrinkti tik tuos įrašus, kurie 
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	pastatai.id as "pastatas",
+    pastatai.id as "pastatas",
     sklypai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
@@ -111,7 +111,7 @@ Dešinysis sujungimas atrenka visus įrašus dešinėje esančioje lentelėje (a
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	pastatai.id as "pastatas",
+    pastatai.id as "pastatas",
     pastatai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
@@ -130,8 +130,8 @@ Santykių sąjungos pagalba galime sujungti abiejų lentelių įrašus pagal nur
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	sklypai.savininkas as "savininkas",
-	pastatai.id as "pastatas",
+    sklypai.savininkas as "savininkas",
+    pastatai.id as "pastatas",
     pastatai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
@@ -146,8 +146,8 @@ Jeigu iš abiejų lentelių norėtume atrinkti tik nepasikartojančius pagal nur
 ```sql
 SELECT
     sklypai.id as "sklypas",
-	sklypai.savininkas as "savininkas",
-	pastatai.id as "pastatas",
+    sklypai.savininkas as "savininkas",
+    pastatai.id as "pastatas",
     pastatai.savininkas as "savininkas"
 FROM
     nt_sklypai sklypai
