@@ -1,4 +1,4 @@
-# V-5. DB lentelių jungimas naudojant joint
+# V-5. DB lentelių jungimas naudojant join
 
 Šioje paskaitoje pristatoma, kaip naudojant SQL rašomi lentelių ir jų įrašų apjungimo sakiniai ir užklausos naudojant join. Naudojant join mes galime įvairiais būdais apjungti keletą lentelių naudojant unikalius identifikatorius. Join (sujungimas) matematiškai apibrėžiama kaip releacinė algebra, kurią taikant galima atlikti įrašų aibių skirtingose esybėse sąjungos, sankirtos, skirtumo ir kt. operacijas. Paskaitoje panagrinėsime keletą pagrindinių operacijų.
 
