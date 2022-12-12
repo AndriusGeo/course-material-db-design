@@ -1,1 +1,3 @@
-# course-material-db-design
+# DB projektavimo paskaitoms skirta medžiaga
+
+Informacija ruošiama.
